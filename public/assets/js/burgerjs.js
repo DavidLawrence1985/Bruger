@@ -24,14 +24,14 @@ $(".create-form").on("submit", function(event) {
 
     $("#eat").on("click", function(event) {
       var id = $(this).data("id");
-      var eaten = $(this).data("eaten");
+    //   var eaten = $(this).data("eaten");
   
       var newStatus = {
         devoured: true
       };
   
       // Send the PUT request.
-      $.ajax("/api/burger/" + id, {
+      $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newStatus
       }).then(

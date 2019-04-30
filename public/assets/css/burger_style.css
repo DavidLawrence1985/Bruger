@@ -17,7 +17,7 @@ body {
 
 .title{
     display: inline-block;
-    font-size: 9rem;
+    font-size: 7rem;
     color: #333;
     font-family: 'Bevan', cursive;
 }
@@ -25,7 +25,7 @@ body {
 #header img {
     margin: 0rem auto;
     padding: 0 .75rem;
-    width: 350px;
+    width: 250px;
     height: auto;
 }
 
@@ -111,6 +111,7 @@ body {
     height: 400px;
     width: 375px;
     text-align:center;
+    overflow: auto;
 }
 
 .list {

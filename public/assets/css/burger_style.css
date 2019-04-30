@@ -59,6 +59,12 @@ body {
     border-radius: 25%;
 }
 
+.eat:hover{
+    background:#fff;
+    color:#333;
+    cursor:pointer;
+}
+
 #burger-form{
     margin-top: 1rem;
     text-align:center;
@@ -72,11 +78,15 @@ body {
 }
 
 #burger{
-    height: 1.75rem;
+    height: 1.25rem;
     width:10rem;
 }
 .form-conent{
     margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom:1rem;
 }
 
 #burger-button {
@@ -85,7 +95,14 @@ body {
     display: inline;
     padding:.5rem;
     font-size: .75rem;
-    margin-top: 3rem;
+    font-family: 'Bevan', cursive;
+    border-radius: .1rem;
+}
+
+#burger-button:hover{
+    background:#333;
+    color:#fff;
+    cursor: pointer;
 }
 
 .blackboard{

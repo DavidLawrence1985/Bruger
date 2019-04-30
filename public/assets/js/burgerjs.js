@@ -1,6 +1,6 @@
 
 $(function(){
-$(".create-form").on("submit", function(event) {
+$("#burger-button").on("click", function(event) {
     event.preventDefault();
 
     var newBurger = {

@@ -1,49 +1,66 @@
 
 <div id="header">
-    <h1>Eat da Burger</h1>
-</div>
-
-<div id="added-burgers">
-    <h2>Burgers to eat!</h2>
-
-    <ul class="list">
-    {{#each burgers}}
-        {{#unless devoured}}
-    <li>
-            {{burger_name}} 
-            <button class="eat" data-id="{{id}}">EAT</button>
-                
-        </li>       
-        {{/unless}}
-    {{/each}}
-    </ul>
-
-</div>
-
-<div id="devoured-burgers">
-
-    <h2>Devoured burgers</h2>
-
-    <ul class="list">
-    {{#each burgers}}
-        {{#if devoured}}
-        <li>{{ burger_name}}</li>
-        {{/if}}
-    {{/each}}
-    </ul>
-
+    <h1 class="title">Eat da<img src="/assets/img/burger.png" alt="Burger">Burger</h1>
+    
 </div>
 
 <div id="burger-form">
+    <div class="form-content">
 
-<h2>Add a burger</h2>
-<form class="create-form">
+        <h2 class="burger-add">Add a burger</h2>
+        <form class="create-form">
 
-  <div class="form-group">
-    <label for="burger">Burger name</label>
-    <input type="text" id="burger" name="burger_name">
-  </div>
+        <div class="form-group">
+            <label for="burger" class="burger-add">Burger name</label>
+            <input type="text" id="burger" name="burger_name">
+        </div>
 
-  <button type="submit">Add Burger</button>
-</form>
+        <p type="submit" id="burger-button">Add Burger</button>
+        </form>
+    </div>
 </div>
+
+<div class="wrapper">
+
+    <div id="added-burgers" class="blackboard">
+        <h2 class="sec-title">Burgers to eat</h2>
+            <ul class="list">
+            {{#each burgers}}
+                {{#unless devoured}}
+            <li>
+                    {{burger_name}} 
+                    <p class="eat" data-id="{{id}}">EAT</p>    
+                </li>       
+                {{/unless}}
+            {{/each}}
+            </ul>
+        
+    </div>
+
+    <div id="devoured-burgers" class="blackboard">
+        <h2 class="sec-title">Devoured</h2>
+            <ul class="list">
+            {{#each burgers}}
+                {{#if devoured}}
+                <li>{{ burger_name}}</li>
+                {{/if}}
+            {{/each}}
+            </ul>
+        
+    </div>
+</div>
+
+<footer></footer>
+{{!-- <div id="burger-form">
+
+    <h2>Add a burger</h2>
+    <form class="create-form">
+
+    <div class="form-group">
+        <label for="burger">Burger name</label>
+        <input type="text" id="burger" name="burger_name">
+    </div>
+
+    <button type="submit">Add Burger</button>
+    </form>
+</div> --}}

@@ -24,7 +24,7 @@
     The eat button for each burger uses a PUT to update the boolean to a value of true of the corresponding burger.
 
 ## Page screenshot
-    <img src="https://github.com/DavidLawrence1985/Burger/master/burgerShot.png">
+    <img src="https://github.com/DavidLawrence1985/Burger/master/burgerShot.png" width="300px" height="300px">
 
 #### creator 
     David Lawrence https://www.linkedin.com/in/david-lawrence-2705aa174/

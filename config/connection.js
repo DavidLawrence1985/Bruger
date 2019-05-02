@@ -9,6 +9,14 @@ var connection = mysql.createConnection({
   database: "heroku_569f1531e50280d"
 });
 
+// var connection = mysql.createConnection({
+//   host: "localhost",
+//   port: 3306,
+//   user: "trilogy-2",
+//   password: "david123",
+//   database: "burgers_db"
+// });
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {

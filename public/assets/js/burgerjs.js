@@ -8,16 +8,21 @@ $("#burger-button").on("click", function(event) {
       burger_name: $("#burger").val().trim(),
       
     };
+    if(burger_name = false){
+      alert("please add a burger before submit")
+    }
+    else {
 
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger
-    }).then(
-      function() {
-        // console.log("created new burger" );
-        location.reload();
-      }
-    );
+      $.ajax("/api/burgers", {
+        type: "POST",
+        data: newBurger
+      }).then(
+        function() {
+          // console.log("created new burger" );
+          location.reload();
+        }
+      );
+    }
 });
 
     $(".eat").on("click", function(event) {

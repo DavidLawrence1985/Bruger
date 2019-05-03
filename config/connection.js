@@ -2,11 +2,11 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "us-cdbr-iron-east-02.cleardb.net",
-  // port: 3306,
-  user: "bc58f1095586fc",
-  password: "3423ddbe",
-  database: "heroku_569f1531e50280d"
+  host: "yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  user: "ezdr4ktba0nsq2qg",
+  password: "ch8ykmprzntaxt8f",
+  database: "eu8yakzd715gkmhf"
 });
 
 // var connection = mysql.createConnection({
@@ -28,3 +28,8 @@ connection.connect(function(err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
+
+
+// var connection = mysql.createConnection(process.env.JAWSDB_URL);
+
+// connection.connect();

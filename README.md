@@ -28,7 +28,7 @@
     ![Burger](/public/assets/img/burgerShot.png)
 
 ### creator 
-    David Lawrence https://www.linkedin.com/in/david-lawrence-2705aa174/
+    David Lawrence [linked in] (https://www.linkedin.com/in/david-lawrence-2705aa174/)
 
 
 

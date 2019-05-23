@@ -28,7 +28,7 @@
 ![Burger](/public/assets/img/burgerShot.png)
 
 ## linked in
-[linked in] (https://www.linkedin.com/in/david-lawrence-2705aa174/)
+[linkedin] (https://www.linkedin.com/in/david-lawrence-2705aa174/)
 
 
 

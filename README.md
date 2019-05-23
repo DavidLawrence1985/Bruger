@@ -5,7 +5,7 @@
     "Eat da Burger" is an app where visitors to the page can add a new burger to the list of burgers to eat.
     Once the burger is added to the page user can select "eat" with will then add the burger to the devoured section on the page.
 
-### Technologies
+## Technologies
 
     MYSQL - used as the development database for storing burgers to the page.
     Express - node package used for serving our routes 
@@ -23,10 +23,11 @@
     The add burger button uses a POST to add the new burger to the datebase with a devoured boolean default value of false.
     The eat button for each burger uses a PUT to update the boolean to a value of true of the corresponding burger.
 
-## Page screenshot
-    ![orders](public/assets/images/burgerShot.PNG)
+# Page screenshot
 
-#### creator 
+    ![Burger](/public/assets/img/burgerShot.png)
+
+### creator 
     David Lawrence https://www.linkedin.com/in/david-lawrence-2705aa174/
 
 

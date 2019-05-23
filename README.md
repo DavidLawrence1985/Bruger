@@ -23,12 +23,12 @@
     The add burger button uses a POST to add the new burger to the datebase with a devoured boolean default value of false.
     The eat button for each burger uses a PUT to update the boolean to a value of true of the corresponding burger.
 
-# Page screenshot
+## Page screenshot
 
-    ![Burger](/public/assets/img/burgerShot.png)
+![Burger](/public/assets/img/burgerShot.png)
 
-### creator 
-    David Lawrence [linked in] (https://www.linkedin.com/in/david-lawrence-2705aa174/)
+## linked in
+[linked in] (https://www.linkedin.com/in/david-lawrence-2705aa174/)
 
 
 
